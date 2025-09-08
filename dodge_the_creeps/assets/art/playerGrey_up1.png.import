@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://yqskv21hjc2i"
-path="res://.godot/imported/playerGrey_up1.png-bd6b851ef15a1a94c8bbe006fb47d0ce.ctex"
+path="res://.godot/imported/playerGrey_up1.png-c93d53216064f2772cc4994d6702ce63.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://dodge_the_creeps/assets/art/playerGrey_up1.png"
-dest_files=["res://.godot/imported/playerGrey_up1.png-bd6b851ef15a1a94c8bbe006fb47d0ce.ctex"]
+source_file="res://dodge_the_creeps/Assets/art/playerGrey_up1.png"
+dest_files=["res://.godot/imported/playerGrey_up1.png-c93d53216064f2772cc4994d6702ce63.ctex"]
 
 [params]
 

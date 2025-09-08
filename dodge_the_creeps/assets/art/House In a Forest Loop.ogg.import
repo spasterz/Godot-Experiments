@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://bsiuiq45lslfa"
-path="res://.godot/imported/House In a Forest Loop.ogg-d6117d0c365300e1496691399cc276b4.oggvorbisstr"
+path="res://.godot/imported/House In a Forest Loop.ogg-5c79c29b9784863c90c94bd6ef8840fe.oggvorbisstr"
 
 [deps]
 
-source_file="res://dodge_the_creeps/assets/art/House In a Forest Loop.ogg"
-dest_files=["res://.godot/imported/House In a Forest Loop.ogg-d6117d0c365300e1496691399cc276b4.oggvorbisstr"]
+source_file="res://dodge_the_creeps/Assets/art/House In a Forest Loop.ogg"
+dest_files=["res://.godot/imported/House In a Forest Loop.ogg-5c79c29b9784863c90c94bd6ef8840fe.oggvorbisstr"]
 
 [params]
 

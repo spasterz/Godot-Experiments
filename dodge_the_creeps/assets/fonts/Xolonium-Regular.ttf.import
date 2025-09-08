@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://x8g2yn58tun7"
-path="res://.godot/imported/Xolonium-Regular.ttf-60bf6f606671ea4222c0f0d4ad96fba6.fontdata"
+path="res://.godot/imported/Xolonium-Regular.ttf-e221c160a1cba7012f5f894b8f3298b6.fontdata"
 
 [deps]
 
-source_file="res://dodge_the_creeps/assets/fonts/Xolonium-Regular.ttf"
-dest_files=["res://.godot/imported/Xolonium-Regular.ttf-60bf6f606671ea4222c0f0d4ad96fba6.fontdata"]
+source_file="res://dodge_the_creeps/Assets/fonts/Xolonium-Regular.ttf"
+dest_files=["res://.godot/imported/Xolonium-Regular.ttf-e221c160a1cba7012f5f894b8f3298b6.fontdata"]
 
 [params]
 
