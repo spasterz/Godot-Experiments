@@ -1,0 +1,66 @@
+[gd_scene load_steps=10 format=3 uid="uid://bik4muifgeoss"]
+
+[ext_resource type="Script" path="res://dodge_the_creeps/Scenes/mob.gd" id="1_0powx"]
+[ext_resource type="Texture2D" uid="uid://bcoy0c73yxwkj" path="res://dodge_the_creeps/Assets/art/enemyFlyingAlt_1.png" id="1_nb2pj"]
+[ext_resource type="Texture2D" uid="uid://xlpmo2eqmgal" path="res://dodge_the_creeps/Assets/art/enemyFlyingAlt_2.png" id="2_s3vj6"]
+[ext_resource type="Texture2D" uid="uid://d2hf3ww5rkhq" path="res://dodge_the_creeps/Assets/art/enemySwimming_1.png" id="3_46oi7"]
+[ext_resource type="Texture2D" uid="uid://m8b4mmpr0ig3" path="res://dodge_the_creeps/Assets/art/enemySwimming_2.png" id="4_afrxv"]
+[ext_resource type="Texture2D" uid="uid://bm2yjmjgp5qke" path="res://dodge_the_creeps/Assets/art/enemyWalking_1.png" id="5_xeh6e"]
+[ext_resource type="Texture2D" uid="uid://c83sfo834mj1" path="res://dodge_the_creeps/Assets/art/enemyWalking_2.png" id="6_thyc5"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_b6rxt"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_nb2pj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_s3vj6")
+}],
+"loop": true,
+"name": &"fly",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_46oi7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_afrxv")
+}],
+"loop": true,
+"name": &"swim",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_xeh6e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_thyc5")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 3.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_14r8e"]
+radius = 35.0
+height = 98.0
+
+[node name="mob" type="RigidBody2D"]
+collision_mask = 0
+gravity_scale = 0.0
+script = ExtResource("1_0powx")
+metadata/_edit_group_ = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.75, 0.75)
+sprite_frames = SubResource("SpriteFrames_b6rxt")
+animation = &"walk"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_14r8e")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
